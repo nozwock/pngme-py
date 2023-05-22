@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 from dataclasses import dataclass
 
 
@@ -71,4 +69,3 @@ class ChunkType:
     def __str__(self) -> str:
         # Write me!
         raise NotImplementedError
-

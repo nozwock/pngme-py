@@ -1,6 +1,3 @@
-from __future__ import annotations
-
-import struct
 from dataclasses import dataclass
 
 from .chunk_type import ChunkType
@@ -71,4 +68,3 @@ class Chunk:
     def __str__(self) -> str:
         # Write me!
         raise NotImplementedError
-        
